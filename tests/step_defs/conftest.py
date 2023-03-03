@@ -9,13 +9,6 @@ from webdriver_manager.firefox import GeckoDriverManager
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
 
-def pytest_addoption(parser):
-  parser.addoption(
-    '--target-env',
-    action='store',
-    default='dev.json',
-    help='Path to the target environment config file')
-
 # Fixture   
 @pytest.fixture
 def target_env(scope='session'):
