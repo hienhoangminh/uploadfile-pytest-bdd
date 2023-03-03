@@ -1,0 +1,6 @@
+{
+    "baseUrl": "https://demo.guru99.com/test/upload/",
+    "browser": "firefox",
+    "headless": "false",
+    "implicit_wait": 30
+}
