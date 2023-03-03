@@ -15,16 +15,16 @@ II. Setup:
 - Run pipenv install to install all the dependencies.
 - Put a file with big size (>200 Mb) into data/ directory and uncomment the section related to big file size upload in feature file.
 - Update the file path as well.
-- IMPORTANT: Run this command line: export TARGET_ENV=dev.json to set the JSON file to be used as environment configuration file.
+- IMPORTANT: Run this command line for setting the JSON file to be used as environment configuration file: _export TARGET_ENV=dev.json_
 - Run:
 
-  +) pipenv run python -m pytest to run all tests
+  +) _pipenv run python -m pytest_ to run all tests
   
-  +) pipenv run python -m pytest -k {keyword} with keyword is defined in pytest.ini
+  +) _pipenv run python -m pytest -k {keyword}_ with keyword is defined in pytest.ini
   
-  +) pipenv run python -m pytest -n {number} with number is number of threads for parallel execution. Please don't set something suitable with your machine.
+  +) _pipenv run python -m pytest -n {number}_ with number is number of threads for parallel execution. Please don't set something suitable with your machine.
   
-  +) pipenv run python -m pytest --html=report.html to generate report to current directory.
+  +) _pipenv run python -m pytest --html=report.html_ to generate report to current directory.
   
 Screenshots: are found on screenshots folder.
 
