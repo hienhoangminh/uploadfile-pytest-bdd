@@ -26,8 +26,7 @@ II. Setup:
   
   +) pipenv run python -m pytest --html=report.html to generate report to current directory.
   
-Screenshots: 
-[(https://we.tl/t-P6FiSRqIXR)]
+Screenshots: are found on screenshots folder.
 
 III. Future improvements/optimization:
 - Support for running on Selenium Grid
